@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Unit - Computer Science</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #ff6347;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 20px;
+        }
+
+        .sidebar {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sidebar p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Passionately Crafted Web Design</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <div class="sidebar">
+                <h2>About Web Design</h2>
+                <p>Web design is not just about creating beautiful websites; it's about creating meaningful experiences for users. It's about blending creativity with functionality to deliver stunning visuals and seamless interactions.</p>
+                <p>At our Web Design unit, we're passionate about every pixel and every line of code. We believe that great design has the power to inspire, engage, and delight users, and we strive to achieve that with every project we undertake.</p>
+            </div>
+            <div class="content">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Responsive Web Design</li>
+                    <li>User Experience (UX) Design</li>
+                    <li>UI/UX Prototyping</li>
+                    <li>Frontend Development</li>
+                    <li>Website Maintenance</li>
+                    <li>Graphic Design</li>
+                </ul>
+                <h2>Our Portfolio</h2>
+                <p>Check out some of our latest projects:</p>
+                <ul>
+                    <li><a href="#">Project 1</a></li>
+                    <li><a href="#">Project 2</a></li>
+                    <li><a href="#">Project 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Web Design Unit - Computer Science</p>
+    </footer>
+</body>
+</html>
